@@ -1,0 +1,363 @@
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
+}
+
+.mb-70 {
+  margin-bottom: 70px;
+}
+
+.mb-80 {
+  margin-bottom: 80px;
+}
+
+.mb-90 {
+  margin-bottom: 90px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mt-60 {
+  margin-top: 60px;
+}
+
+.mt-70 {
+  margin-top: 70px;
+}
+
+.mt-80 {
+  margin-top: 80px;
+}
+
+.mt-90 {
+  margin-top: 90px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+::-moz-selection {
+  background: rgba(3, 21, 29, 0.5);
+}
+
+::selection {
+  background: rgba(3, 21, 29, 0.5);
+}
+
+* {
+  font-family: "MonsterRegular", Serif;
+}
+
+.container-fluid {
+  max-width: 1536px;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.header {
+  margin-top: 75px;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header__logo {
+  float: left;
+}
+
+.header__title {
+  display: inline-block;
+  margin: 0;
+  font-family: "MonsterEBold";
+  font-size: 27px;
+  padding-left: 10px;
+  color: #fff;
+  text-transform: uppercase;
+  height: 98px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 98px;
+  float: right;
+}
+
+.header-nav__list {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.header-nav__item {
+  display: inline-block;
+  padding-right: 60px;
+}
+
+.header-nav__item:last-child {
+  padding-right: 0px;
+}
+
+.header-nav__link {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: "MonsterBold";
+}
+
+.header-nav__link:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-nav__link:link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-nav__link:focus {
+  color: #fff;
+}
+
+.banner {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.banner__img {
+  height: auto;
+  width: 100%;
+}
+
+.banner__video {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.banner__mail {
+  display: block;
+  position: absolute;
+  bottom: 40px;
+  right: 1px;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 72px;
+  height: 70px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 1;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-border-radius: 6px;
+          border-radius: 6px;
+}
+
+.about {
+  background-color: #1aa6b7;
+  padding-bottom: 97px;
+  padding-top: 77px;
+}
+
+.about__title {
+  margin: 0px;
+  color: #fff;
+  font-size: 48px;
+  font-family: "MonsterBold";
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.about__title_subtitle {
+  font-size: 30px;
+  margin-top: 25px;
+}
+
+.about__description {
+  font-family: "MonsterRegular";
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+}
+
+.about__box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 80px;
+  width: 100%;
+  margin-top: 88px;
+}
+
+.footer-top {
+  background-color: #022d41;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.footer-nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 98px;
+}
+
+.footer-nav__list {
+  list-style-type: none;
+  padding-left: 0px;
+  margin: 0 auto;
+}
+
+.footer-nav__item {
+  display: inline-block;
+  padding-right: 60px;
+}
+
+.footer-nav__item:last-child {
+  padding-right: 0px;
+}
+
+.footer-nav__link {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: "MonsterBold";
+}
+
+.footer-nav__link:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-nav__link:link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-nav__link:focus {
+  color: #fff;
+}
+
+.footer-bot {
+  background-color: #03151d;
+  padding-top: 11px;
+  padding-bottom: 14px;
+}
+
+.footer__copyright {
+  text-align: center;
+  font-family: "MonsterRegular";
+  font-size: 20px;
+  color: #316177;
+}
+
+@font-face {
+  font-family: 'MonsterRegular';
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'MonsterBold';
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'MonsterEBold';
+  src: url(../fonts/Montserrat-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: 'MonsterMedium';
+  src: url(../fonts/Montserrat-Medium.ttf);
+}
+
+/*# sourceMappingURL=../css/main.css.map */

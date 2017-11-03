@@ -1,0 +1,11 @@
+@import "variables-functions-and-mixins";
+
+::selection { background: rgba($footerbot-color, .5); }
+* { font-family: $MonRegular, Serif; }
+.container-fluid {max-width: 1536px;}
+.align-right { text-align: right; }
+.align-left { text-align: left; }
+.align-center { text-align: center; }
+
+@import 'media';
+@import "fonts";

@@ -1,0 +1,23 @@
+$main-color: #fff;
+$footerbot-color:#03151d;
+$footertop-color: #022d41;
+$about-color:#1aa6b7;
+
+
+
+$MonRegular: "MonsterRegular";
+$MonBold: "MonsterBold";
+$MonEBold: "MonsterEBold";
+$MonMedium: "MonsterMedium";
+
+$i: 10;
+@while $i < 101 {
+    .mb-#{$i} { margin-bottom: $i + px; }
+    $i: $i + 10;
+}
+
+$i: 10;
+@while $i < 101 {
+    .mt-#{$i} { margin-top: $i + px; }
+    $i: $i + 10;
+}
