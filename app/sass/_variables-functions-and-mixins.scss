@@ -2,14 +2,22 @@ $main-color: #fff;
 $footerbot-color:#03151d;
 $footertop-color: #022d41;
 $about-color:#1aa6b7;
-
-
+$register-color:#80d7ff;
+$btn-color:#ff414d;
+$position-color:#0094ce;
+$light-color:#daecf3;
 
 $MonRegular: "MonsterRegular";
 $MonBold: "MonsterBold";
 $MonEBold: "MonsterEBold";
 $MonMedium: "MonsterMedium";
+$MonSBold: "MonsterSBold";
 
+$name-size: 36px;
+$position-size: 25px;
+$biggest-size: 72px;
+$section-size: 48px;
+$explanation-size: 24px;
 $i: 10;
 @while $i < 101 {
     .mb-#{$i} { margin-bottom: $i + px; }

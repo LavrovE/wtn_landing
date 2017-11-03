@@ -340,6 +340,226 @@
   color: #316177;
 }
 
+.capture {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.capture_h1 {
+  line-height: 80px;
+  font-family: "MonsterBold";
+  font-size: 72px;
+  color: #fff;
+  text-align: center;
+  display: block;
+  padding: 175px 0px;
+}
+
+.register {
+  background-color: #022d41;
+  padding: 60px 0px;
+}
+
+.register_h1 {
+  font-family: "MonsterBold";
+  font-size: 72px;
+  color: #fff;
+  display: block;
+  line-height: 80px;
+}
+
+.register_text {
+  color: #80d7ff;
+  font-size: 30px;
+  font-family: "MonsterBold";
+}
+
+.register_vertical {
+  height: 100%;
+  FLOAT: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.team {
+  background-color: #daecf3;
+  padding: 40px 0px;
+}
+
+.team_h2 {
+  font-size: 72px;
+  color: #03151d;
+  font-family: "MonsterBold";
+  text-align: center;
+}
+
+.team__item {
+  display: block;
+  padding: 0px 60px;
+  margin-top: 45px;
+}
+
+.team__item__img {
+  width: 100%;
+  height: auto;
+}
+
+.team__name {
+  font-family: "MonsterBold";
+  text-align: center;
+  color: #03151d;
+  font-size: 36px;
+  display: block;
+  padding: 10px 0px;
+  line-height: 40px;
+}
+
+.team__position {
+  font-family: "MonsterBold";
+  text-align: center;
+  color: #0094ce;
+  font-size: 25px;
+  display: block;
+}
+
+.industry__item {
+  margin-bottom: 50px;
+}
+
+.industry__item__text {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 24px;
+  margin-left: 20px;
+  color: #03151d;
+  font-family: "MonsterMedium";
+  line-height: 22px;
+  width: 70%;
+  margin-bottom: 0px;
+}
+
+.industry__item__img {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+}
+
+.function__item {
+  margin-bottom: 50px;
+}
+
+.function__item__text {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 18px;
+  margin-left: 20px;
+  color: #03151d;
+  font-family: "MonsterMedium";
+  line-height: 22px;
+  width: 70%;
+  margin-bottom: 0px;
+}
+
+.function__item__img {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+}
+
+.functions {
+  background-color: #daecf3;
+  padding-bottom: 20px;
+}
+
+a:focus, a:hover {
+  color: #23527c;
+  text-decoration: none;
+}
+
+.contact__form__wrapper {
+  background-color: #daecf3;
+  padding-bottom: 20px;
+}
+
+.contact__form {
+  display: block;
+  padding-bottom: 40px;
+  margin: 0 auto;
+  max-width: 600px;
+  position: relative;
+}
+
+.contact__form__input {
+  display: block;
+  width: 100%;
+  color: #022d41;
+  padding: 26px 24px;
+  font-size: 24px;
+  font-family: "MonsterSBold";
+  border: none;
+  margin-top: 60px;
+}
+
+.form_btn {
+  border: none;
+  display: block;
+  width: 100%;
+  color: #022d41;
+}
+
+.attention {
+  font-size: 24px;
+  font-family: "MonsterSBold";
+  display: block;
+}
+
+::-webkit-input-placeholder {
+  color: #022d41;
+}
+
+::-moz-placeholder {
+  color: #022d41;
+}
+
+:-moz-placeholder {
+  color: #022d41;
+}
+
+:-ms-input-placeholder {
+  color: #022d41;
+}
+
+.h1 {
+  color: #022d41;
+  font-size: 48px;
+  font-family: "MonsterBold";
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.explanation {
+  font-size: 24px;
+  color: #022d41;
+  text-align: center;
+  margin-bottom: 65px;
+  line-height: 26px;
+}
+
+.btn_secondary {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  padding: 30px 10px;
+}
+
+.btn-red {
+  color: #fff;
+  background-color: #ff414d;
+  font-family: "MonsterSBold";
+}
+
 @font-face {
   font-family: 'MonsterRegular';
   src: url(../fonts/Montserrat-Regular.ttf);
@@ -353,6 +573,11 @@
 @font-face {
   font-family: 'MonsterEBold';
   src: url(../fonts/Montserrat-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: 'MonsterSBold';
+  src: url(../fonts/Montserrat-SemiBold.otf);
 }
 
 @font-face {
