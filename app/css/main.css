@@ -501,6 +501,28 @@ a:focus, a:hover {
   margin-top: 60px;
 }
 
+select {
+  -webkit-appearance: none;
+}
+
+.select_wrapper {
+  position: relative;
+}
+
+.select_wrapper:after {
+  position: absolute;
+  display: block;
+  right: 25px;
+  top: -webkit-calc(50% - 14px/2);
+  top: calc(50% - 14px/2);
+  content: '';
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 12px 7px 0 7px;
+  border-color: #002740 transparent transparent transparent;
+}
+
 .form_btn {
   border: none;
   display: block;
