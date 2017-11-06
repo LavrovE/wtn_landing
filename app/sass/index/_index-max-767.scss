@@ -1,0 +1,29 @@
+.team{
+	&__item{
+	    padding: 0px 10px;
+	    width: 50%;
+	    display: block;
+	    margin: 0 auto;
+	}
+}
+.capture{
+	&_h1{
+	    font-size: 50px;
+	}
+}
+.team{
+	&_h2{
+	font-size:40px;
+	}
+	&__name{
+	font-size:30px;
+	}
+}
+.contact__form{
+	&__input{
+	    font-size: 18px;
+	}
+}
+.h1{
+	font-size:38px;
+}

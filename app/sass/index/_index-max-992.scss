@@ -1,0 +1,31 @@
+.capture {
+
+	    &_h1{
+    		padding: 270px 0px 60px;
+	    }
+}
+.team{
+		&_h2{
+		    font-size: 50px;
+		}
+		&__item{
+			padding: 0px 30px;
+		}
+}
+.register{
+		&_h1{
+		font-size: 50px;
+	    color: #fff;
+	    display: block;
+	    line-height: 50px;
+		}
+}
+.btn_secondary{
+	    padding: 10px 10px;
+}
+.industry__item{
+		&__text{
+		    font-size: 14px;
+		}
+		
+}

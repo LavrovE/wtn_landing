@@ -1,0 +1,45 @@
+.team{
+	&__item{
+	    padding: 0px 10px;
+	    width: 80%;
+	    display: block;
+	    margin: 0 auto;
+	}
+}
+.contact__form{
+	&__input{
+		    font-size: 14px;
+		    padding: 12px 6px;
+		    margin-top: 30px;
+	}
+}
+.function{
+	&__col{
+	    display: block;
+	    width: 100%;
+	    margin: 0 auto;
+	    text-align: center;
+	}
+		&__item{
+				display:block;
+				margin:0 auto;
+				text-align:center;
+
+				&__img{
+				    	    display: block;
+						    margin: 0 auto;
+						    margin-bottom: 20px;
+						    text-align: center;
+				    }
+			    &__text{
+			    		display: block;
+			    		margin: 0 auto;
+			    		margin-bottom: 20px;
+			    		text-align: center;
+			    }		
+		}
+
+}
+.h1{
+	font-size:34px;
+}

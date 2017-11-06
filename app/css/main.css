@@ -424,45 +424,45 @@
 }
 
 .industry__item {
+  display: table;
   margin-bottom: 50px;
 }
 
 .industry__item__text {
-  display: inline-block;
+  display: table-cell;
   vertical-align: middle;
   font-size: 24px;
-  margin-left: 20px;
+  padding-left: 10px;
   color: #03151d;
   font-family: "MonsterMedium";
   line-height: 22px;
-  width: 70%;
   margin-bottom: 0px;
 }
 
 .industry__item__img {
-  display: inline-block;
+  display: table-cell;
   width: 70px;
   height: 70px;
 }
 
 .function__item {
+  display: table;
   margin-bottom: 50px;
 }
 
 .function__item__text {
-  display: inline-block;
+  display: table-cell;
   vertical-align: middle;
   font-size: 18px;
-  margin-left: 20px;
+  padding-left: 10px;
   color: #03151d;
   font-family: "MonsterMedium";
   line-height: 22px;
-  width: 70%;
   margin-bottom: 0px;
 }
 
 .function__item__img {
-  display: inline-block;
+  display: table-cell;
   width: 64px;
   height: 64px;
 }
@@ -580,6 +580,94 @@ select {
   color: #fff;
   background-color: #ff414d;
   font-family: "MonsterSBold";
+}
+
+@media (max-width: 991px) {
+  .capture_h1 {
+    padding: 270px 0px 60px;
+  }
+  .team_h2 {
+    font-size: 50px;
+  }
+  .team__item {
+    padding: 0px 30px;
+  }
+  .register_h1 {
+    font-size: 50px;
+    color: #fff;
+    display: block;
+    line-height: 50px;
+  }
+  .btn_secondary {
+    padding: 10px 10px;
+  }
+  .industry__item__text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .team__item {
+    padding: 0px 10px;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+  .capture_h1 {
+    font-size: 50px;
+  }
+  .team_h2 {
+    font-size: 40px;
+  }
+  .team__name {
+    font-size: 30px;
+  }
+  .contact__form__input {
+    font-size: 18px;
+  }
+  .h1 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 500px) {
+  .team__item {
+    padding: 0px 10px;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+  .contact__form__input {
+    font-size: 14px;
+    padding: 12px 6px;
+    margin-top: 30px;
+  }
+  .function__col {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .function__item {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .function__item__img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .function__item__text {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .h1 {
+    font-size: 34px;
+  }
 }
 
 @font-face {
