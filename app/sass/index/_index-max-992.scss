@@ -29,3 +29,21 @@
 		}
 		
 }
+.function{
+	&__item{
+	    width: 90%;
+	    display: block;
+	    margin: 0 auto;
+	}
+	&__col{
+			min-height: 120px;
+	}
+	&__hiddenvalue{
+			font-family: "MonsterMedium";
+		    font-size: 16px;
+		    line-height: 18px;
+		    margin-bottom: 0px;
+		    margin-top: 10px;
+		    text-align: center;
+	}
+}

@@ -27,3 +27,15 @@
 .h1{
 	font-size:38px;
 }
+.function{
+	&__item{
+
+			width:100%;
+	}
+	&__hiddenvalue{
+		    font-size: 14px;
+	}
+	&__col{
+			min-height:140px;
+	}
+}

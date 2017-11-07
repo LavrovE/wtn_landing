@@ -14,16 +14,19 @@
 	}
 }
 .function{
-	&__col{
-	    display: block;
-	    width: 100%;
-	    margin: 0 auto;
-	    text-align: center;
-	}
+		&__col{
+		    display: block;
+		    width: 100%;
+		    margin: 0 auto;
+		    text-align: center;
+		    min-height: 180px;
+		    margin: 20px 0px;
+		}
 		&__item{
 				display:block;
 				margin:0 auto;
 				text-align:center;
+				border-bottom:1px solid #03151d;
 
 				&__img{
 				    	    display: block;
@@ -36,7 +39,18 @@
 			    		margin: 0 auto;
 			    		margin-bottom: 20px;
 			    		text-align: center;
+			    		font-size:18px;
+			    		border-bottom:none;
 			    }		
+		}
+		&__hiddenvalue{
+		    font-size: 20px;
+		    text-align: center;
+		    margin: 0 auto;
+		    line-height: 22px;
+		    p{
+		    	text-align:center;
+		    }
 		}
 
 }

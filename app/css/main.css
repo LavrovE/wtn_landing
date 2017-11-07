@@ -445,26 +445,54 @@
   height: 70px;
 }
 
+.function__hiddenvalue {
+  font-family: "MonsterMedium";
+  font-size: 12px;
+  line-height: 14px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  text-align: center;
+  display: none;
+}
+
+.function__hiddenvalue p {
+  text-align: left;
+}
+
+.function__col {
+  min-height: 130px;
+}
+
 .function__item {
-  display: table;
-  margin-bottom: 50px;
+  display: inline-block;
+  margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .function__item__text {
-  display: table-cell;
+  display: inline-block;
   vertical-align: middle;
   font-size: 18px;
-  padding-left: 10px;
+  margin-left: 10px;
   color: #03151d;
   font-family: "MonsterMedium";
   line-height: 22px;
   margin-bottom: 0px;
+  border-bottom: 1px solid;
 }
 
 .function__item__img {
-  display: table-cell;
+  display: inline-block;
   width: 64px;
   height: 64px;
+}
+
+.function__item.active {
+  margin-top: -20px;
+}
+
+.function__hiddenvalue.active {
+  display: block;
 }
 
 .functions {
@@ -582,6 +610,12 @@ select {
   font-family: "MonsterSBold";
 }
 
+@media (max-width: 1200px) {
+  .function__item__text {
+    font-size: 14px;
+  }
+}
+
 @media (max-width: 991px) {
   .capture_h1 {
     padding: 270px 0px 60px;
@@ -603,6 +637,22 @@ select {
   }
   .industry__item__text {
     font-size: 14px;
+  }
+  .function__item {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+  .function__col {
+    min-height: 120px;
+  }
+  .function__hiddenvalue {
+    font-family: "MonsterMedium";
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    text-align: center;
   }
 }
 
@@ -628,6 +678,15 @@ select {
   .h1 {
     font-size: 38px;
   }
+  .function__item {
+    width: 100%;
+  }
+  .function__hiddenvalue {
+    font-size: 14px;
+  }
+  .function__col {
+    min-height: 140px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -647,11 +706,14 @@ select {
     width: 100%;
     margin: 0 auto;
     text-align: center;
+    min-height: 180px;
+    margin: 20px 0px;
   }
   .function__item {
     display: block;
     margin: 0 auto;
     text-align: center;
+    border-bottom: 1px solid #03151d;
   }
   .function__item__img {
     display: block;
@@ -663,6 +725,17 @@ select {
     display: block;
     margin: 0 auto;
     margin-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: none;
+  }
+  .function__hiddenvalue {
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 22px;
+  }
+  .function__hiddenvalue p {
     text-align: center;
   }
   .h1 {
