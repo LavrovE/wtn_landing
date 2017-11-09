@@ -447,8 +447,8 @@
 
 .function__hiddenvalue {
   font-family: "MonsterMedium";
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 18px;
+  line-height: 18px;
   margin-bottom: 0px;
   margin-top: 10px;
   text-align: center;
@@ -460,7 +460,7 @@
 }
 
 .function__col {
-  min-height: 130px;
+  min-height: 170px;
 }
 
 .function__item {
@@ -472,7 +472,7 @@
 .function__item__text {
   display: inline-block;
   vertical-align: middle;
-  font-size: 18px;
+  font-size: 16px;
   margin-left: 10px;
   color: #03151d;
   font-family: "MonsterMedium";
@@ -613,6 +613,9 @@ select {
 @media (max-width: 1200px) {
   .function__item__text {
     font-size: 14px;
+  }
+  .function__col {
+    min-height: 150px;
   }
 }
 

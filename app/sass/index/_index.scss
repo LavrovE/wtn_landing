@@ -273,8 +273,8 @@
 .function{
 	&__hiddenvalue{
 	    font-family: "MonsterMedium";
-	    font-size: 12px;
-	    line-height:14px;
+	    font-size: 18px;
+	    line-height:18px;
 	    margin-bottom:0px;
 	    margin-top:10px;
 	    text-align: center;
@@ -285,7 +285,7 @@
 	    }
 	}
 	&__col{
-		 min-height: 130px;
+		 min-height: 170px;
 	}
 	&__item{
 
@@ -296,7 +296,7 @@
 			&__text{
 			    display: inline-block;
 			    vertical-align: middle;
-			    font-size: 18px;
+			    font-size: 16px;
 			    margin-left: 10px;
 			    color: #03151d;
 			    font-family: "MonsterMedium";
